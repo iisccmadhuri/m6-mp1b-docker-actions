@@ -10,6 +10,8 @@ WORKDIR /bike_sharing_api
 # update pip
 RUN pip install --upgrade pip
 
+#run 
+RUN ls -l
 # install dependencies
 RUN pip install -r requirements.txt
 
