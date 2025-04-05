@@ -4,6 +4,8 @@ FROM python:3.10-slim
 # copy application files
 ADD ./bike_sharing_api /bike_sharing_api/
 
+COPY bikeshare_model_output_v0.0.1.pkl /bike_sharing_api/
+
 # specify working directory
 WORKDIR /bike_sharing_api
 
