@@ -78,7 +78,7 @@ jobs:
         run: pip install --upgrade build
 
       - name: Build package
-        run: python -m build
+        run: python -m build /home/runner/work/m6-mp1b-docker-actions/m6-mp1b-docker-actions/bikeshare_project/
 
       - name: Upload build package
         uses: actions/upload-artifact@v4
