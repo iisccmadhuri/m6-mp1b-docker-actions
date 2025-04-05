@@ -20,7 +20,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install -r /home/runner/work/m6-mp1b-docker-actions/bikeshare_project/requirements/requirements.txt
+        run: pip install -r /home/runner/work/m6-mp1b-docker-actions/m6-mp1b-docker-actions/bikeshare_project/requirements/requirements.txt
 
       - name: Train and save pipeline
         run: python bikeshare_model/train_pipeline.py
