@@ -95,7 +95,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Download build package
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: my-build-package
           path: /home/runner/work/m6-mp1b-docker-actions/m6-mp1b-docker-actions/bikeshare_project/bike_sharing_api
