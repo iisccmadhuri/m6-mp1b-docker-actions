@@ -98,7 +98,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: my-build-package
-          path: /home/runner/work/m6-mp1b-docker-actions/m6-mp1b-docker-actions/bikeshare_project/bike_sharing_api
+          path: bike_sharing_api
 
       - name: Login to Docker Hub
         env:
