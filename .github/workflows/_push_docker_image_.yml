@@ -97,7 +97,7 @@ jobs:
       - name: Download build package
         uses: actions/download-artifact@v3
         with:
-          name: my-build-package
+          # name: my-build-package
           path: bike_sharing_api
 
       - name: Login to Docker Hub
