@@ -109,7 +109,7 @@ jobs:
       - name: Build Docker image for FastAPI app
         env:
           DOCKER_USER: ${{ secrets._DOCKER_USER_NAME_ }}
-        run: docker build . -f Dockerfile -t $DOCKER_USER/bike_sharing_api:latest
+        run: docker build . -f /home/runner/work/m6-mp1b-docker-actions/m6-mp1b-docker-actions/bikeshare_project/Dockerfile -t $DOCKER_USER/bike_sharing_api:latest
 
       - name: Push Docker image
         env:
