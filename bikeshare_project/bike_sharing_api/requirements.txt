@@ -5,7 +5,7 @@ pydantic
 pydantic-settings
 
 # If locally copied whl file inside titanic_model_api then use given below
-bikeshare_model_output_v0.0.1.pkl
+/home/runner/work/m6-mp1b-docker-actions/m6-mp1b-docker-actions/bikeshare_project/bike_sharing_api/bikeshare_model_output_v0.0.1.pkl
 
 # If uploded your package in PyPI then use the given below
 #bikeshare-model==0.0.1
