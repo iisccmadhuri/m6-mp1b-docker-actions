@@ -69,7 +69,7 @@ jobs:
           python-version: '3.10'
 
       - name: Download trained pipeline
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: my-trained-pipeline
           path: /home/runner/work/m6-mp1b-docker-actions/m6-mp1b-docker-actions/bikeshare_project/bikeshare_model/trained_models
@@ -92,10 +92,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Download build package
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: my-build-package
           path: bike_sharing_api
