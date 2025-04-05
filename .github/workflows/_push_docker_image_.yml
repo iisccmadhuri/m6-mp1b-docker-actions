@@ -25,7 +25,7 @@ jobs:
         run: python bikeshare_model/train_pipeline.py
 
       - name: Upload trained pipeline
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: my-trained-pipeline
           path: bikeshare_model/trained_models/*.pkl
