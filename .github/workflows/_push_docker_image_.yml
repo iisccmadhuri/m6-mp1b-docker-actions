@@ -84,7 +84,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: my-build-package
-          path: dist/*.whl
+          path: /home/runner/work/m6-mp1b-docker-actions/m6-mp1b-docker-actions/bikeshare_project/dist/*.whl
           retention-days: 1
 
   push-image:
